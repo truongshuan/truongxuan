@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+*,
+*:before,
+*:after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.menu {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right, #0997e7, #77cdcb);
+}
+nav {
+  display: flex;
+  max-width: 84%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul > li {
+  display: inline-block;
+  margin: 10px 23px;
+}
+nav > ul > li > a {
+  font-size: 21.333px;
+  color: #dddddd;
+  font-weight: bold;
+  position: relative;
+  padding: 0 5px;
+  letter-spacing: 0.5px;
+}
+nav > ul > li > a:after {
+  content: "";
+  position: absolute;
+  background-color: #ff4e5b;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+nav > ul > li > a:hover {
+  color: #dddddd;
+  text-shadow: 0 0 10px #ff4e5b;
+}
+nav > ul > li > a:hover:after {
+  width: 100%;
+}
+.banner {
+  width: 1388px;
+  height: 554px;
+  margin: 2rem auto;
+  background-image: url(img/bannercollection.jpeg);
+}
+.boxing-pr {
+  display: flex;
+  width: 1388px;
+  height: auto;
+  margin: 0.5rem auto;
+}
+.boxing-pr > .box {
+  display: inline-block;
+  margin-right: 1.68rem;
+  width: 447px;
+  height: 640px;
+}
+.boxing-pr > .box > .image-pr {
+  width: 442px;
+  height: 364px;
+  object-fit: cover;
+}
+.boxing-pr > .box > .text-pr {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+.boxing-pr > .box > .ghichu {
+  text-align: center;
+  margin-top: 2.2rem;
+  font-size: 15px;
+  font-weight: normal;
+}
+.boxing-pr > .box > .button-pr {
+  display: inline-block;
+  padding: 10px 15px;
+  color: Black;
+  background-color: #f8f6f6;
+  border: 2px solid black;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.boxing-pr > .box > .button-pr:hover {
+  background-color: #666666;
+  color: #dddddd;
+  border: none;
+  font-weight: bold;
+}
+.boxing-pr > .box > .button-pr-rieng {
+  display: inline-block;
+  padding: 10px 15px;
+  color: Black;
+  background-color: #f8f6f6;
+  border: 2px solid black;
+  margin-top: 3.5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.boxing-pr > .box > .button-pr-rieng:hover {
+  background-color: #666666;
+  color: #dddddd;
+  border: none;
+}
+.tittle > h2 {
+  width: 20%;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, #75e9d5, #abb8e5);
+  font-size: 30px;
+  text-align: center;
+  margin: 5rem auto;
+  font-weight: bold;
+  color: #24014d;
+  text-shadow: 0 0 2px #eea7c1;
+}
+.boxingproduct-shoes {
+  background-image: url(img/bg-texture-waffle.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 1000px;
+  height: auto;
+  margin: 5rem auto;
+}
+.boxingproduct-shoes > .shoes {
+  position: relative;
+  width: 290px;
+  height: 425px;
+  margin-right: 6rem;
+}
+.boxingproduct-shoes > .shoes:hover {
+  box-shadow: 0 2px 5px;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans {
+  object-fit: cover;
+  width: 200px;
+  height: auto;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans1 {
+  object-fit: cover;
+  width: 210px;
+  height: auto;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans2 {
+  object-fit: cover;
+  width: 200px;
+  height: auto;
+  margin-top: 2.9rem;
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans4 {
+  object-fit: cover;
+  width: 200px;
+  height: auto;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans5 {
+  object-fit: cover;
+  width: 210px;
+  height: auto;
+  margin-top: 7.5rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans7 {
+  object-fit: cover;
+  width: 210px;
+  height: auto;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .shoes-vans9 {
+  object-fit: cover;
+  width: 200px;
+  height: auto;
+  margin-top: 9.7rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.boxingproduct-shoes > .shoes > .name-shoes {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.boxingproduct-shoes > .shoes > .name-shoes:hover {
+  color: ;
+  text-shadow: 0 0 3px;
+  font-weight: 1000;
+}
+.boxingproduct-shoes > .shoes > .price-shoes {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 19px;
+  color: #dd0000;
+}
+.boxingproduct-shoes > .shoes > .price-shoes:hover {
+  color: #01e96a;
+  text-shadow: 0 0 3px;
+  font-weight: 300;
+}
+.boxingproduct-shoes > .shoes > .price-shoes > del {
+  text-decoration: line-through;
+  color: rgba(61, 24, 24, 0.685);
+}
+.boxingproduct-shoes > .shoes > .icon-shoes-sales {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+}
+.boxingproduct-shoes > .shoes > .icon-shoes-heart {
+  position: absolute;
+  bottom: 0px;
+  left: 4px;
+}
+.boxingproduct-shoes > .shoes > .icon-shoes-cart {
+  position: absolute;
+  bottom: 0px;
+  right: 4px;
+}
+footer {
+  background-color: #666666;
+  padding: 50px 0;
+  margin-top: 10px;
+}
+footer > .container {
+  max-width: 1170px;
+  margin: auto;
+}
+footer > .container > .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer > .container > .row > .footer-col {
+  width: 25%;
+  padding: 0 10px;
+}
+footer > .container > .row > .footer-col > h4 {
+  font-size: 20px;
+  color: #ccffff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+}
+footer > .container > .row > .footer-col > h4:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  background-color: #ffff00;
+  height: 3px;
+  box-sizing: border-box;
+  width: 80px;
+}
+footer > .container > .row > .footer-col > ul > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+footer > .container > .row > .footer-col > ul > li > a {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #928320;
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+  transition: all 0.1s ease;
+}
+footer > .container > .row > .footer-col > ul > li > a:hover {
+  color: #c8af22;
+  padding-left: 5px;
+}
+footer > .container > .row > .footer-col > .iconlink > a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+footer > .container > .row > .footer-col > .iconlink > a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+footer > .container > .row > .vanscuoitrang > img {
+  width: 200px;
+  margin-left: -20rem;
+  margin-right: 5rem;
+}
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .vanscuoitrang {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .vanscuoitrang {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+.last-footer {
+  padding: 5px 0;
+  background-color: black;
+  color: #dddddd;
+  text-align: center;
+  font-weight: bold;
+}
+.fb-like {
+  margin-top: 1.5rem;
+}
+.fb-page {
+  padding-left: 200px;
+}
